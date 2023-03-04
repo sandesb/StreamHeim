@@ -57,8 +57,11 @@ body {
     width: 370px;
     height: 67px;
     font-size: var(--font-size-sm);
-    color: #263159;
+    color: #13366c;
+    box-shadow: 20px 4px 2px 0 rgba(0, 0, 0, 0.2), 10px 6px 2px 0 rgba(0, 0, 0, 0.19);
+
   }
+ 
   .group-child {
     border: 0;
     background-color: var(--color-ivory-100);
@@ -76,6 +79,9 @@ body {
     left: 22px;
     letter-spacing: 0.04em;
   }  
+  
+  
+
   .logo1,
   .logo2,
   .tv-1-child {
@@ -103,23 +109,29 @@ body {
     position: absolute;
   }
   .login1 {
-    top: 0;
-    left: 0;
+  
+    border: 1px solid silver;
     border-radius: var(--br-md);
     background-color: #060606;
     border: 1px solid var(--color-white);
     box-sizing: border-box;
-    width: 146px;
-    height: 73px;
-  }
-  .login2 {
-    top: 10px;
-    left: 35px;
-    display: inline-block;
-    width: 110.96px;
-    height: 49.25px;
-    font-size: 30px;
-  }
+    width: 120px;
+    height: 55px;
+    font-size: 20px;
+    align-items: center;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    transition: all .2s ease 0s;
+    vertical-align: middle;
+    opacity: 88%;
+    color: white;
+}
+.login1:hover {
+  background-color:white;
+  color: black;
+}
   .login,
   .login3 {
     position: absolute;
@@ -127,15 +139,18 @@ body {
     left: 1057px;
     width: 146px;
     height: 73px;
+
   }
   .login3 {
     border: 0;
-    background-color: var(--color-steelblue);
-    top: 408px;
+    background-color: #13366c;
+    top: 407px;
     left: 448px;
     border-radius: 12px;
     width: 132px;
     height: 67px;
+    box-shadow: 20px 4px 2px 0 rgba(0, 0, 0, 0.2), 10px 6px 2px 0 rgba(0, 0, 0, 0.19);
+
   }
   .continue {
     position: absolute;
