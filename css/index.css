@@ -102,6 +102,10 @@ body {
     width: 200px;
     height: 56px;
   }
+  input{
+    padding: 0 20px;
+
+  }
  
   .login1,
   .login2,
@@ -225,7 +229,7 @@ body {
   .entertainment-for-everyone-container {
     position: absolute;
     top: 402px;
-    left: 120px;
+    left: 130px;
     font-size: var(--font-size-sm);
     display: inline-block;
     width: 240px;
@@ -421,13 +425,51 @@ body {
   .computer {
     position: absolute;
     top: 215px;
-    left: 431px;
+    left: 470px;
     font-size: var(--font-size-lg);
     display: inline-block;
     color: var(--color-white);
     text-align: left;
     width: 271px;
     height: 68px;
+    font-size: 20px;
+  }
+  .mob {
+    position: absolute;
+    top: 10px;
+    left: 60px;
+    font-size: var(--font-size-lg);
+    display: inline-block;
+    color: var(--color-white);
+    text-align: left;
+    width: 271px;
+    height: 68px;
+    font-size: 20px;
+  }
+  .top-container{
+    width:200px;
+    height:200px;
+    background-color: blue;
+    border:20px;
+   
+    padding: 20px;
+    margin:20px;
+  }
+  .middle-container{
+    width:200px;
+    height:200px;
+    margin-left: 225px;
+    border:20px;
+
+    background-color: red;
+  }
+  .bottom-container{
+    width:200px;
+    height:200px;
+    margin-left: 380px;
+    border:20px;
+
+    background-color: green;
   }
   .card-2-child1 {
     position: absolute;
